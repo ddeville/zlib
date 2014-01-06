@@ -111,6 +111,8 @@ const char zip_copyright[] =" zip 1.01 Copyright 1998-2004 Gilles Vollant - http
 
 #define SIZECENTRALHEADER (0x2e) /* 46 */
 
+typedef unsigned long z_crc_t;
+
 typedef struct linkedlist_datablock_internal_s
 {
   struct linkedlist_datablock_internal_s* next_datablock;
